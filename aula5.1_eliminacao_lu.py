@@ -33,7 +33,7 @@ def calculte_first_value(L, b):
 
 
 # Superior triangular SUPERIOR -> U * x = y
-def triangular_upper(U):
+def triangular_upper(U,y):
     n = len(U) # tamanho de U
     x = np.zeros(n) # zera a solução
     x[-1] = calculate_last_value(U, y) # calcula o último valor
