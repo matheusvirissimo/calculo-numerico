@@ -10,7 +10,6 @@ a) decompor A em L.U.
 
 import numpy as np # criar matrizes e facilita cálculos númericos
 
-import aula5_eliminacao_lu
 
 def lu_decomposition(A):
     """

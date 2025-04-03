@@ -1,5 +1,3 @@
-import numpy as np
-
 def eliminicao_gauss(A, b):
     n = len(A) # obtém o número de linhas da matriz A
 
