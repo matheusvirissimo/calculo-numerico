@@ -15,11 +15,8 @@ iter = 1
 erro_relativo = 2*EPSILON
 
 while((erro_relativo > EPSILON) and (iter < ITER_MAX)):
-    x_novo = mt.exp(x_antigo) - x_antigo - 1
-    x_novo = (mt.exp(x_antigo) - 1)/2
-    x_novo = (mt.exp(x_antigo) - 2*x_antigo)*x_antigo
-    x_novo = mt.log(2*x_antigo+1)
-    erro_relativo = abs(x_antigo-x_novo)/abs(x_novo)
+    x_novo = f(x_antigo)
+    erro_relativo = abs(x_novo - x_antigo)/abs(x_novo)
 
     x_antigo = x_novo
     iter += 1
