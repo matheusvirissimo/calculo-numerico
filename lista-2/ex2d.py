@@ -21,7 +21,7 @@ def f(x):
     return (x ** 4) - 8
 
 def df(x):
-    return 4 * (x ** 2)
+    return 4 * (x ** 3)
 
 raiz_aproximada, ultima_raiz, erro, iteracoes = newton_raphton(1)
 print(f"A raiz encontrada foi: {raiz_aproximada}")
